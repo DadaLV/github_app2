@@ -1,0 +1,5 @@
+<h1>GitHub User Search</h1>
+<%= form_tag search_github_path, method: :get do %>
+  <%= text_field_tag :github_login, nil, placeholder: 'Enter GitHub username' %>
+  <%= submit_tag 'Search' %>
+<% end %>
