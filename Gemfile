@@ -81,4 +81,5 @@ group :test do
 end
 
 gem 'graphql'
-gem 'graphql-client'
+gem "graphiql-rails", group: :development
+gem 'faraday'
